@@ -10,36 +10,18 @@ h4{
     display: inline;
 }
 
-.main_img{
-    width: 100%;
-}
-
-.main_card_text_div{
-    position: absolute;
-    text-align: center;
-    left:50%; 
-    transform:translateX(-50%);
-    top:93%;
-    width: 100%;
-}
-
-.main_card_text{
-    color: #000;
-}
-
-.main_btn{
-    width: 100%;
-    opacity: 0.5;
-}
-
-.main_btn:hover{
-    opacity: 1.0;
+.ability_contents_title{
+    color: #fff;
 }
 
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.skill_card_title{
+    color: #707070;
 }
 
 .sns_icon{
