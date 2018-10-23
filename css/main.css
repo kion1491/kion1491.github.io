@@ -10,7 +10,7 @@ h4{
 }
 
 img{
-    display: inline;
+    display: absolute;
 }
 
 .profile_content_img{
@@ -121,10 +121,65 @@ img{
     border-radius: 50%;
 }
 
+
 .skill_name{
-    position: relative;
+    position: absolute;
+    right: 30em;
     animation: ddd 1s infinite;
 }
+
 @keyframes ddd{
-    from{left:-2px}to{left:2px}}
+    from{left:-2px}to{left:2px}
 }
+
+#this_text{
+    font-size: 2em;
+    top:50px;
+    right: 350px;
+}
+
+#webpage{
+    font-size: 3em;
+    top: 30px;
+    right: 60px;
+}
+
+/* 
+made
+by
+HTML5
+CSS3
+jQuery
+JavaScript */
+
+
+.balloon {
+    display: inline-block;
+    position: relative;
+    background: #ccc;
+    height: 300px;
+    width: 500px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+.balloon:before {
+    content: '';
+    position: absolute;
+    background: #ccc;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    bottom: -40px;
+    left: 280px;
+}
+.balloon:after {
+    content: '';
+    position: absolute;
+    background: #ccc;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    bottom: -60px;
+    left: 360px;
+}
+
