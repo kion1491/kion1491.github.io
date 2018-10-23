@@ -113,6 +113,9 @@ img{
     padding: 0.5em;
 }
 
+/*
+ #profile_section
+*/
 #profile_section{
     padding-top: 6em;
 }
@@ -120,7 +123,6 @@ img{
 #profile_img{
     border-radius: 50%;
 }
-
 
 .skill_name{
     position: absolute;
@@ -143,15 +145,22 @@ img{
     top: 30px;
     right: 60px;
 }
-
+#made{
+    font-size: 2em;
+    top:50px;
+    right: -250px;
+}
+#by{
+    font-size: 2em;
+    top: 50px;
+    right: -380px;
+}
 /* 
-made
 by
 HTML5
 CSS3
 jQuery
 JavaScript */
-
 
 .balloon {
     display: inline-block;
@@ -170,7 +179,7 @@ JavaScript */
     width: 40px;
     border-radius: 50%;
     bottom: -40px;
-    left: 280px;
+    left: 350px;
 }
 .balloon:after {
     content: '';
@@ -180,6 +189,6 @@ JavaScript */
     width: 40px;
     border-radius: 50%;
     bottom: -60px;
-    left: 360px;
+    left: 430px;
 }
 
