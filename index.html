@@ -8,56 +8,50 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div id="main_content" class="container-fluid" style="background-color: #423c3c;">
-    <ul class="nav justify-content-end fixed-top" style="background-color: #423c3c;">
+  <div id="main_content" class="container-fluid">
+    <ul class="nav justify-content-end fixed-top">
       <li class="nav-item">
-        <a class="nav-link nav_link" href="#introduction_content">Introduction</a>
+        <a class="nav-link nav_link" href="#me_content">me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav_link" href="#ability_content">Ability</a>
+        <a class="nav-link nav_link" href="#profile_content">profile</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav_link" href="#">Object</a>
+        <a class="nav-link nav_link" href="#skill_content">skill</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav_link" href="#skill_content">work</a>
       </li>
     </ul>  
-    <div class="row mt-5">
-      <div class="col" style="color: #fff;">
+    <div class="row" id="profile_section">
+      <div class="col">
         <center>
-          <h1>김상훈<i>(SangHoon, Kim)</i></h1>
-          <h3>Front-end Developer / Business Supporter</h3>
-          <br>
-          <h6>서울 한복판에서 폭풍성장 중인 맹그로브</h6>
-        </center>
-      </div>
-    </div>
-    <hr class="mt-3" style="background-color:#fff;">
-    <div class="row mt-5">
+        <img class="profile_content_img img-fluid" src="image/balloon.PNG" alt="skillBalloon">
+        <img class="profile_content_img img-fluid" id="profile_img" src="image/profile_img.png" alt="profileImage">
+        <span class="skill_name">HTML5</span>
+        <span class="skill_name">CSS3</span>
+        <span class="skill_name">jQuery</span>
+        <span class="skill_name">JavaScript</span>
 
+        </center>
+        <h5><b>김상훈, Kion</b></h5>
+        <span class="text-muted" itemprop="jobTitle">Front-end Developer / Business Supporter</span>
+        <hr>
+        <span>1990.08.07</span><br>
+        <span>Seoul, Korea</span><br>
+        <span>010-8618-1491</span><br>
+        <span>kion1491@gmail.com</span><br><br>
+        <center>
+        <a href="https://www.facebook.com/profile.php?id=100009221086945" target="_blank"><img class="sns_icon" src="image/facebook_icon.png" alt="kion_facebook"></a>
+        <a href="https://www.instagram.com/kion_kim/" target="_blank"><img class="sns_icon" src="image/instagram_icon.png" alt="kion_instagram"></a>
+        </center>
+        <h6>서울 한복판에서 폭풍성장 중인 맹그로브</h6>
+      </div>
     </div>
   </div>
-  <div id="introduction_content" class="container-fluid" style="background-color: #fff;">
+  <div id="me_content" class="container-fluid">
     <div class="row mt-5">
-      <div class="col-3 p-5">
-        <div class="card sticky-top">
-          <img class="card-img-top" src="image/profile_img.png" alt="Card image cap" style="width: 100%;">
-          <div class="card-body">
-            <p class="card-text">
-              <center>
-              <h5><b>김상훈, Kion</b></h5>
-              <span class="text-muted" itemprop="jobTitle">Front-end Developer / Business Supporter</span>
-              <hr>
-              <span>1990.08.07</span><br>
-              <span>Seoul, Korea</span><br>
-              <span>010-8618-1491</span><br>
-              <span>kion1491@gmail.com</span><br><br>
-              <a href="https://www.facebook.com/profile.php?id=100009221086945" target="_blank"><img class="sns_icon" src="image/facebook_icon.png" alt="kion_facebook"></a>
-              <a href="https://www.instagram.com/kion_kim/" target="_blank"><img class="sns_icon" src="image/instagram_icon.png" alt="kion_instagram"></a>
-              </center>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-9">
+      <div class="col">
         <h3>Introduction</h3>
         <hr>
         <p>
@@ -100,105 +94,13 @@
               아이패드로 그림그리기
             </li>
           </ul>
-          <div id="ipad_img_slider" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <table class="table">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_01.PNG">
-                      </td>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_02.PNG">
-                      </td>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_03.PNG">
-                      </td>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_04.PNG">
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="carousel-item">
-                <table class="table">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_05.PNG">
-                      </td>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_06.PNG">
-                      </td>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_07.PNG">
-                      </td>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_08.PNG">
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="carousel-item">
-                <table class="table">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_09.PNG">
-                      </td>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_11.PNG">
-                      </td>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_12.PNG">
-                      </td>
-                      <td>
-                        <img class="ipad_img" src="image/ipad_13.PNG">
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#ipad_img_slider" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#ipad_img_slider" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
         </p>
       </div>
     </div>
   </div>
-  <div id="ability_content" class="container-fluid" style="color: #fff;">
+  <div id="profile_content" class="container-fluid" style="color: #fff;">
     <div class="row mt-5">
-      <div class="col-3 p-5" style="color: #000;">
-        <div class="card sticky-top">
-          <img class="card-img-top" src="image/profile_02.png" alt="Card image cap" style="width: 100%;">
-          <div class="card-body">
-            <p class="card-text">
-              <center>
-              <h5><b>김상훈, Kion</b></h5>
-              <span class="text-muted" itemprop="jobTitle">Front-end Developer / Business Supporter</span>
-              <hr>
-              <span>1990.08.07</span><br>
-              <span>Seoul, Korea</span><br>
-              <span>010-8618-1491</span><br>
-              <span>kion1491@gmail.com</span><br><br>
-              <a href="https://www.facebook.com/profile.php?id=100009221086945" target="_blank"><img class="sns_icon" src="image/facebook_icon.png" alt="kion_facebook"></a>
-              <a href="https://www.instagram.com/kion_kim/" target="_blank"><img class="sns_icon" src="image/instagram_icon.png" alt="kion_instagram"></a>
-              </center>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-9">
+      <div class="col">
         <h3>Ability</h3>
         <hr>
         <p>

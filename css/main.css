@@ -1,5 +1,4 @@
 body{
-    background-color: #423c3c;
     margin: 0;
     padding: 0;
     font-family: "Malgun Gothic", "Lucida Grande", Tahoma, Verdana, AppleGothic, UnDotum, sans-serif;
@@ -8,6 +7,22 @@ body{
 h4{
     color: #707070;
     display: inline;
+}
+
+img{
+    display: inline;
+}
+
+.profile_content_img{
+    width: 40%;
+}
+
+.nav{
+    background-color: #423c3c;
+}
+
+#main_content{
+    background-color: #41969b;
 }
 
 .ability_contents_title{
@@ -32,12 +47,9 @@ h4{
     font-size: 1em;
 }
 
-.ipad_img{
-    width: 100%;
-}
-
 .nav_link{
     color: #fff;
+    font-size: 2em;
 }
 
 .card-skills {
@@ -99,4 +111,20 @@ h4{
 
 .badge{
     padding: 0.5em;
+}
+
+#profile_section{
+    padding-top: 6em;
+}
+
+#profile_img{
+    border-radius: 50%;
+}
+
+.skill_name{
+    position: relative;
+    animation: ddd 1s infinite;
+}
+@keyframes ddd{
+    from{left:-2px}to{left:2px}}
 }
