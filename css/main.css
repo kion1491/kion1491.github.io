@@ -1,3 +1,7 @@
+html{
+    font-size : 1vmax;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -13,12 +17,13 @@ img{
     display: absolute;
 }
 
-.profile_content_img{
-    width: 40%;
+.navbar{
+    background-color: #423c3c;
 }
 
-.nav{
-    background-color: #423c3c;
+.animation_div{
+    position: relative;
+    display: inline-block;
 }
 
 #main_content{
@@ -113,63 +118,72 @@ img{
     padding: 0.5em;
 }
 
+
 /*
- #profile_section
+
+    #profile_section
+
 */
+
 #profile_section{
     padding-top: 6em;
 }
 
 #profile_img{
-    border-radius: 50%;
+    width: 90%;
+    top: 5px;
 }
 
 .skill_name{
-    position: absolute;
+    position: relative;
     right: 30em;
-    animation: ddd 1s infinite;
+    animation: leftMove 2s infinite;
 }
 
-@keyframes ddd{
-    from{left:-2px}to{left:2px}
+@keyframes leftMove{
+    from{left:-2px;}to{left:2px;}
 }
 
-#this_text{
+#html5{
     font-size: 2em;
-    top:50px;
-    right: 350px;
+    top: 3.5em;
+    right: 10em;
 }
 
-#webpage{
+#css3{
     font-size: 3em;
-    top: 30px;
-    right: 60px;
+    top: 1.5em;
+    left: 2em;
 }
-#made{
+
+#jquery{
     font-size: 2em;
     top:50px;
     right: -250px;
 }
-#by{
+
+#javascript{
     font-size: 2em;
     top: 50px;
     right: -380px;
 }
+
 /* 
-by
-HTML5
-CSS3
-jQuery
-JavaScript */
+    by
+    HTML5
+    CSS3
+    jQuery
+    JavaScript
+*/
 
 .balloon {
     display: inline-block;
     position: relative;
     background: #ccc;
-    height: 300px;
-    width: 500px;
+    width: 100%;
     margin: 0 auto 10px;
     border-radius: 50%;
+    padding-bottom: 56.26%;
 }
 .balloon:before {
     content: '';
@@ -179,7 +193,7 @@ JavaScript */
     width: 40px;
     border-radius: 50%;
     bottom: -40px;
-    left: 350px;
+    left: 450px;
 }
 .balloon:after {
     content: '';
@@ -189,6 +203,135 @@ JavaScript */
     width: 40px;
     border-radius: 50%;
     bottom: -60px;
-    left: 430px;
+    left: 530px;
 }
 
+@media (max-width: 991.98px) {
+    .balloon:before {
+        content: '';
+        position: absolute;
+        background: #ccc;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        bottom: -70px;
+        left: 300px;
+    }
+    .balloon:after {
+        content: '';
+        position: absolute;
+        background: #ccc;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        bottom: -130px;
+        left: 350px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .balloon:before {
+        content: '';
+        position: absolute;
+        background: #ccc;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        bottom: -70px;
+        left: 150px;
+    }
+    .balloon:after {
+        content: '';
+        position: absolute;
+        background: #ccc;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        bottom: -130px;
+        left: 200px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .balloon:before {
+        content: '';
+        position: absolute;
+        background: #ccc;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        bottom: -70px;
+        left: 100px;
+    }
+    .balloon:after {
+        content: '';
+        position: absolute;
+        background: #ccc;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        bottom: -130px;
+        left: 150px;
+    }
+}
+
+/* 
+
+    #me_content 
+
+*/
+
+.intro_ment{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+#intro_ment_div{
+    display: inline-block;
+}
+
+#seoul{
+    font-size: 3em;
+    animation: twinkleMove 1s 0.1s infinite ease-in-out alternate;
+}
+
+#center{
+    font-size: 2em;
+    top: 0.9em;
+    opacity: 0.7;
+    animation: twinkleMove 1s 0.5s infinite ease-in-out alternate;
+}
+
+#growth{
+    font-size: 4em;
+    top: 0.6em;
+    left: 0.5em;
+    animation: twinkleMove 1s 0.6s infinite ease-in-out alternate;
+}
+
+#ing{
+    font-size: 2em;
+    top: -0.1em;
+    left: 8em;
+    opacity: 0.7;
+    animation: twinkleMove 1s 0.8s infinite ease-in-out alternate;
+}
+
+#tree{
+    font-size: 4em;
+    top: 0.1em;
+    left: 3em;
+    animation: twinkleMove 1s 1s infinite ease-in-out alternate;
+}
+
+#frontend_developer{
+    font-size: 5em;
+    top: -0.2em;
+    left: 0.6em;
+    animation: twinkleMove 1s 1.01s infinite ease-in-out alternate;
+}
+
+@keyframes twinkleMove{
+    from{opacity: 0.3;}to{opacity:1;}
+}

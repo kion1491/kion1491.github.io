@@ -3,68 +3,82 @@
 <head>
   <title>김상훈, kion</title>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <div id="main_content" class="container-fluid">
-    <ul class="nav justify-content-end fixed-top">
-      <li class="nav-item">
-        <a class="nav-link nav_link" href="#me_content">me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav_link" href="#profile_content">profile</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav_link" href="#skill_content">skill</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link nav_link" href="#skill_content">work</a>
-      </li>
-    </ul>  
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navBar">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link nav_link" href="#me_content">me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav_link" href="#profile_content">profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav_link" href="#skill_content">skill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav_link" href="#skill_content">work</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <ul class="nav justify-content-end fixed-top">
+        <li class="nav-item">
+          <a class="nav-link nav_link" href="#me_content">me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav_link" href="#profile_content">profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav_link" href="#skill_content">skill</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav_link" href="#skill_content">work</a>
+        </li>
+      </ul> -->  
     <div class="row" id="profile_section">
-      <div class="col">
+      <div class="col-lg-6">
         <center>
-          <div style="position: relative; display: inline;">
+          <div class="animation_div">
             <div class="balloon">
-              <span class="skill_name" id="this_text">This</span>
-              <span class="skill_name" id="webpage">webpage</span>
-              <span class="skill_name" id="made">made</span>
-              <span class="skill_name" id="by">by</span>
-              <span class="skill_name" id="HTML5">HTML5</span>
-              <span class="skill_name" id="CSS3">CSS3</span>
-              <span class="skill_name" id="jQuery">jQuery</span>
-              <span class="skill_name" id="JavaScript">JavaScript</span>
+              <span class="skill_name" id="html5">HTML5</span>
+              <span class="skill_name" id="css3">CSS3</span>
+              <span class="skill_name" id="jquery">jQuery</span>
+              <span class="skill_name" id="javascript">JavaScript</span>
             </div>
           </div>
-          <img class="profile_content_img img-fluid" id="profile_img" src="image/profile_img.png" alt="profileImage">
         </center>
-        <h5><b>김상훈, Kion</b></h5>
-        <span class="text-muted" itemprop="jobTitle">Front-end Developer / Business Supporter</span>
-        <hr>
-        <span>1990.08.07</span><br>
-        <span>Seoul, Korea</span><br>
-        <span>010-8618-1491</span><br>
-        <span>kion1491@gmail.com</span><br><br>
+      </div>
+      <div class="col-lg-6">
         <center>
-        <a href="https://www.facebook.com/profile.php?id=100009221086945" target="_blank"><img class="sns_icon" src="image/facebook_icon.png" alt="kion_facebook"></a>
-        <a href="https://www.instagram.com/kion_kim/" target="_blank"><img class="sns_icon" src="image/instagram_icon.png" alt="kion_instagram"></a>
+          <img class="profile_content_img img-fluid" id="profile_img" src="image/ksh/profile_img_01.PNG" alt="profileImage">
         </center>
-        <h6>서울 한복판에서 폭풍성장 중인 맹그로브</h6>
       </div>
     </div>
   </div>
   <div id="me_content" class="container-fluid">
     <div class="row mt-5">
-      <div class="col">
-        <h3>Introduction</h3>
-        <hr>
-        <p>
-          서울 한복판에서 폭풍성장 중인 맹그로브.
-        </p>
-        <br>
-        <ion-icon name="walk"></ion-icon><h4>Activities</h4>
+      <div class="col-lg-6" style="width: 100%; text-align: center;">
+        <div class="animation_div" id="intro_ment_div">
+          <span class="intro_ment" id="seoul">서울</span>
+          <span class="intro_ment" id="center">한복판에서</span><br>
+          <span class="intro_ment" id="growth">폭풍성장</span><br>
+          <span class="intro_ment" id="ing">중인</span><br>
+          <span class="intro_ment" id="tree">맹그로브,</span><br>
+          <span class="intro_ment" id="frontend_developer">front-end developer</span>
+        </div>
+        
+        
+        <!-- <ion-icon name="walk"></ion-icon><h4>Activities</h4>
         <hr>
         <p>
           <i>Key words : </i> <span class="badge badge-info">학구열</span> <span class="badge badge-info">관종</span> <span class="badge badge-info">활동적</span><br><br>
@@ -100,7 +114,10 @@
               아이패드로 그림그리기
             </li>
           </ul>
-        </p>
+        </p> -->
+      </div>
+      <div class="col-lg-6">
+        image side
       </div>
     </div>
   </div>
@@ -113,6 +130,14 @@
           할수있는 것, 경험 했던 것.
         </p>
         <br>
+        <div id="intro_sub">
+          <span>1990.08.07</span>
+          <span>Seoul, Korea</span>
+          <span>010-8618-1491</span>
+          <span>kion1491@gmail.com</span>
+        <a href="https://www.facebook.com/profile.php?id=100009221086945" target="_blank"><img class="sns_icon" src="image/sns/facebook_icon.png" alt="kion_facebook"></a>
+        <a href="https://www.instagram.com/kion_kim/" target="_blank"><img class="sns_icon" src="image/sns/instagram_icon.png" alt="kion_instagram"></a>
+        </div>
         <ion-icon name="construct"></ion-icon><h4 class="ability_contents_title">Skills</h4>
         <div class="content">
           <ul class="list-unstyled clear-margin">
