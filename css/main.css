@@ -1,392 +1,69 @@
-html{
-    font-size : 1vmax;
-}
+/* 
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "Malgun Gothic", "Lucida Grande", Tahoma, Verdana, AppleGothic, UnDotum, sans-serif;
-}
-
-h4{
-    color: #707070;
-    display: inline;
-}
-
-img{
-    display: absolute;
-}
-
-.navbar{
-    background-color: #423c3c;
-    padding: 0px 10px;
-    line-height: 1;
-}
-
-.animation_div{
-    position: relative;
-    display: inline-block;
-    width: 80%;
-}
-
-#main_content{
-    background-color: #41969b;
-}
-
-.ability_contents_title{
-    color: #fff;
-}
-
-.card {
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 10px;
-}
-
-.skill_card_title{
-    color: #707070;
-}
-
-.sns_icon{
-    width: 2em;
-}
-
-.main_card_text{
-    font-size: 1em;
-}
-
-.nav_link{
-    color: #fff;
-    font-size: 2em;
-}
-
-.card-skills {
-    position: relative;
-}
-
-.skill-level {
-    border-radius: 3px;
-    position: absolute;
-    top: 10px;
-    bottom: 10px;
-    left: 0;
-    width: 10px;
-    box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
-}
-
-.skill-level .skill-progress {
-    position: absolute;
-    border-radius: 3px;
-    bottom: 0;
-    width: 100%;
-    -webkit-transition: height 1s ease;
-}
-
-.skill-level .skill-progress.beginner {
-    height: 50%;
-    background: #e74c3c;
-}
-
-.skill-level .skill-progress.intermediate {
-    height: 70%;
-    background: #f1c40f;
-}
-
-.skill-level .skill-progress.advanced {
-    height: 80%;
-    background: #428bca;
-}
-
-.skill-level .skill-progress.master {
-    height: 95%;
-    background: #5cb85c;
-}
-
-.skill-info {
-    margin-left: 15px;
-    height: 6em;
-}
-
-@media (max-width: 480px) {
-    .skill-info {
-        margin-left: 20px;
-    }
-}
-
-.labels {
-    line-height: 2;
-}
-
-.badge{
-    padding: 0.5em;
-}
-
-
-/*
-
-    #profile_section
+ 01. intro_div
 
 */
 
-#profile_section{
-    padding-top: 6em;
+#intro_div{
+    background-color: #41969c;
+    font-size: 1rem;
+}
+
+.balloon{
+    width: 90%;
+    opacity: 0;
+}
+
+.nopadding{
+    padding: 0;
 }
 
 #profile_img{
-    width: 90%;
-    top: 5px;
-}
-
-.skill_name{
-    position: relative;
-    right: 30em;
-    animation: leftMove 2s infinite;
-}
-
-@keyframes leftMove{
-    from{left:-2px;}to{left:2px;}
-}
-
-#html5{
-    font-size: 2em;
-    top: 3.5em;
-    right: 10em;
-}
-
-#css3{
-    font-size: 3em;
-    top: 1.5em;
-    left: 2em;
-}
-
-#jquery{
-    font-size: 2em;
-    top:50px;
-    right: -250px;
-}
-
-#javascript{
-    font-size: 2em;
-    top: 50px;
-    right: -380px;
-}
-
-/* 
-    by
-    HTML5
-    CSS3
-    jQuery
-    JavaScript
-*/
-
-.balloon {
     width: 100%;
-    height: 25em;
-    background: #ccc;
-    border: 5px solid #00bfb6;
-    padding: 80px 0px;
-    margin: 30px auto;
-    border-radius: 50%;
-    text-align: center;
-    position: relative;
-    /* display: inline-block;
-    position: relative;
-    background: #ccc;
-    width: 100%;
-    margin: 0 auto 10px;
-    border-radius: 50%;
-    padding-bottom: 56.26%; */
+    margin-right: 0;
 }
-.balloon:before {
-    content: '';
+
+.sub_balloon{
     position: absolute;
-    background: #ccc;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    bottom: -10%;
-    left: 100%;
+    margin: 0;
 }
-.balloon:after {
-    content: '';
+
+#middle_balloon{
+    width: 5em;
+    top: 45%;
+    right: -1em;
+}
+
+#small_balloon{
+    width: 2.5rem;
+    top: 40%;
+    right: -4em;
+}
+
+.skill_text{
     position: absolute;
-    background: #ccc;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    bottom: -20%;
-    left: 120%;
+    font-size: 2vw;
+    animation: textvib 0.1s infinite;
+    opacity: 0;
 }
 
-@media (max-width: 1024px) {
-    .balloon:before {
-        content: '';
-        position: absolute;
-        background: #ccc;
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        bottom: 5%;
-        left: 100%;
-    }
-    .balloon:after {
-        content: '';
-        position: absolute;
-        background: #ccc;
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-        bottom: 15%;
-        left: 120%;
-    }
+#s_html{
+    top: 33%;
+    left: 4.5em;
 }
 
-@media (max-width: 991.98px) {
-    .balloon:before {
-        content: '';
-        position: absolute;
-        background: #ccc;
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        bottom: -25%;
-        left: 20%;
-    }
-    .balloon:after {
-        content: '';
-        position: absolute;
-        background: #ccc;
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-        bottom: -50%;
-        left: 30%;
-    }
+#s_css{
+    top: 38%;
+    left: 6em;
 }
 
-@media (max-width: 767.98px) {
-    .balloon:before {
-        content: '';
-        position: absolute;
-        background: #ccc;
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        bottom: -70px;
-        left: 150px;
-    }
-    .balloon:after {
-        content: '';
-        position: absolute;
-        background: #ccc;
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        bottom: -130px;
-        left: 200px;
-    }
+#s_bs{
+    top: 23%;
+    left: 10.2em;
 }
 
-@media (max-width: 575.98px) {
-    .balloon:before {
-        content: '';
-        position: absolute;
-        background: #ccc;
-        height: 20px;
-        width: 20px;
-        border-radius: 50%;
-        bottom: -14%;
-        left: 50%;
-    }
-    .balloon:after {
-        content: '';
-        position: absolute;
-        background: #ccc;
-        height: 15px;
-        width: 15px;
-        border-radius: 50%;
-        bottom: -25%;
-        left: 55%;
-    }
+#s_js{
+    top: 33%;
+    left: 14.4em;
 }
 
-/* 
-
-    #me_content 
-
-*/
-
-.intro_ment{
-    position: relative;
-    width: 100%;
-    text-align: center;
-}
-
-#intro_ment_div{
-    display: inline-block;
-}
-
-#seoul{
-    font-size: 3em;
-    left: -1em;
-    animation: twinkleMove 1s 0.2s infinite ease-in alternate;
-}
-
-#center{
-    font-size: 2em;
-    top: 0.9em;
-    left: -1em;
-    opacity: 0.7;
-    animation: twinkleMove 1s 0.6s infinite ease-in alternate;
-}
-
-#growth{
-    font-size: 4em;
-    top: 0.6em;
-    left: -0.5em;
-    animation: twinkleMove 1s 0.7s infinite ease-in alternate;
-}
-
-#ing{
-    font-size: 2em;
-    top: -0.1em;
-    left: 7em;
-    opacity: 0.7;
-    animation: twinkleMove 1s 0.9s infinite ease-in alternate;
-}
-
-#tree{
-    font-size: 4em;
-    top: 0.1em;
-    left: 2em;
-    animation: twinkleMove 1s 1.1s infinite ease-in alternate;
-}
-
-#frontend_developer{
-    font-size: 5em;
-    top: -0.2em;
-    left: -0.1em;
-    animation: twinkleMove 1s 1.2s infinite ease-in alternate;
-}
-
-@keyframes twinkleMove{
-    from{opacity: 0.3;}to{opacity:1;}
-}
-
-
-/* 
-    #profile_content
-*/
-
-#profile_content{
-    background-image: url('../image/background/paper_01.jpg');
-    background-attachment: scroll;
-    /* background-size: cover; */
-}
-#profile_content_img_div{
-    padding-left: 0;
-}
-
-#profile_content_img{
-    width: 100%;
-}
