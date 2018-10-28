@@ -103,6 +103,7 @@
 	.skill_text{
 	    font-size: 3.5vw;
 	}
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -132,3 +133,57 @@
 	    font-size: 1.5vw;
 	}
 }
+
+@media (max-width: 991.98px){
+	#profile_div_img{
+		display: none;
+	}
+
+	#profile_ment_div{
+	    height: 53vw;
+	    width: 50%;
+	    margin: 0 auto;
+	    position: relative;
+	}
+
+	.profile_ment{
+	    position: absolute;
+	    line-height: 0;
+	}
+
+	#seoul{
+	    font-size: 1.1em;
+	    top: 4em;
+	}
+
+	#upgrade{
+	    font-size: 1.6em;
+	    top: 4em; 
+	    left: 1em;   
+	}
+
+	#ing{
+	    font-size: 0.9em;
+	    top: 7.3em;
+	    left: 9em;
+	}
+
+	#tree{
+	    font-size: 2em;
+	    top: 4.2em;
+	    left: 0.5em
+	}
+
+	#frontend{
+	    font-size: 2.5em;
+	    top: 4.3em;
+	    left: 1em;
+	}
+
+	#developer{
+	    font-size: 2.5em;
+	    top: 5.05em;
+	    left: 1.3em;
+	}
+}
+

@@ -1,3 +1,7 @@
+.profile_img{
+    width: 100%;
+}
+
 /* 
 
  01. intro_div
@@ -6,7 +10,6 @@
 
 #intro_div{
     background-color: #41969c;
-    font-size: 1rem;
 }
 
 .balloon{
@@ -18,9 +21,9 @@
     padding: 0;
 }
 
-#profile_img{
-    width: 100%;
+#main_img{
     margin-right: 0;
+    animation: imgfloat 3s 1s infinite linear alternate;
 }
 
 .sub_balloon{
@@ -43,7 +46,7 @@
 .skill_text{
     position: absolute;
     font-size: 2vw;
-    animation: textvib 0.1s infinite;
+    animation: textvib 1s infinite;
     opacity: 0;
 }
 
@@ -67,3 +70,70 @@
     left: 14.4em;
 }
 
+
+/* 
+
+ 02. profile_div
+
+*/
+
+#profile_div{
+    background-image: url(../image/background/paper_01.jpg);
+    background-size: cover;
+    font-size: 3vw;
+}
+
+#profile_div_img{
+    position: absolute;
+    line-height: 0;
+    bottom: 0;
+}
+
+#profile_ment_div{
+    height: 53vw;
+}
+
+.profile_ment{
+    position: absolute;
+    line-height: 0;
+    text-shadow: 0.2vw 0.2vw 1vw gray;
+}
+
+#seoul{
+    font-size: 1.1em;
+    top: 4em;
+}
+
+#upgrade{
+    font-size: 1.6em;
+    top: 4em; 
+    left: 1em;   
+}
+
+#ing{
+    font-size: 0.9em;
+    top: 7.3em;
+    left: 9em;
+}
+
+#tree{
+    font-size: 2em;
+    top: 4.2em;
+    left: 0.5em
+}
+
+#frontend{
+    font-size: 2.5em;
+    top: 4.3em;
+    left: 1em;
+    text-shadow: 0.5vw 0.5vw 0.5vw gray;
+    animation: textshine 2s infinite linear alternate;
+}
+
+#developer{
+    font-size: 2.5em;
+    top: 5.05em;
+    left: 1.3em;
+    text-shadow: 0.5vw 0.5vw 0.5vw gray;
+    animation: textshine 2s infinite alternate;
+}
