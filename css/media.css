@@ -13,33 +13,70 @@
 	    top: 98%;
 	    right: 12.5em;
 	}
-
-	.skill_text{
-	    font-size: 2vw;
+	
+	#skill_div{
+		margin-top: -20px;
 	}
 
-	.skill_text{
-	    font-size: 3vw;
+	.main_skill{
+	    font-size : 1em;
 	}
 
-	#s_html{
-	    top: 33%;
-	    left: 5.5em;
+	.sub_skill{
+	    color: #808080;
+	    font-size: 0.7em;
 	}
 
-	#s_css{
-	    top: 38%;
-	    left: 7em;
+	.tool_skill{
+	    font-size : 0.5em;
+	    color: #808080
 	}
 
-	#s_bs{
-	    top: 23%;
-	    left: 11.2em;
+	.etc_skill{
+	    font-size : 0.5em;
 	}
 
-	#s_js{
-	    top: 33%;
-	    left: 15.4em;
+	.profile_ment{
+	    position: block;
+	    line-height: 0;
+	}
+
+	#skill_div{
+		margin-top: -20px;
+	}
+
+	#profile_ment_div{
+		height: 30rem;
+	}
+
+	#seoul{
+	    font-size: 0.6em;
+	    top: 20%;
+	    left: 15%;
+	}
+
+	#upgrade{
+	    font-size: 1em;
+	    top: 32%; 
+	    left: 5%;
+	}
+
+	#tree{
+	    font-size: 1.3em;
+	    top: 45%;
+	    left: 10%;
+	}
+
+	#frontend{
+	    font-size: 1.4em;
+	    top: 58%;
+	    left: 0;
+	}
+
+	#developer{
+	    font-size: 1.4em;
+	    top: 68%;
+	    left: 0;
 	}
 }
 
@@ -59,28 +96,26 @@
 	    right: 20.5em;
 	}
 
-	.skill_text{
-	    font-size: 3vw;
+	.main_skill{
+	    font-size : 1.7em;
 	}
 
-	#s_html{
-	    top: 33%;
-	    left: 4.5em;
+	.sub_skill{
+	    color: #808080;
+	    font-size: 1.5em;
 	}
 
-	#s_css{
-	    top: 38%;
-	    left: 6em;
+	.tool_skill{
+	    font-size : 1.2em;
+	    color: #808080
 	}
 
-	#s_bs{
-	    top: 23%;
-	    left: 10.2em;
+	.etc_skill{
+	    font-size : 0.9em;
 	}
 
-	#s_js{
-	    top: 33%;
-	    left: 14.4em;
+	#profile_ment_div{
+	    width: 100%;
 	}
 }
 
@@ -93,6 +128,12 @@
 	    right: 30em;
 	}
 
+	#profile_ment_div{
+	    width: 70%;
+	    margin: 0 auto;
+	    position: relative;
+	}
+
 	#small_balloon{
 	    width: 2rem;
 	    margin: 0;  
@@ -100,10 +141,27 @@
 	    right: 33em;
 	}
 
-	.skill_text{
-	    font-size: 3.5vw;
+	#skill_div{
+		margin-top: -20px;
 	}
 
+	.main_skill{
+	    font-size : 1.7em;
+	}
+
+	.sub_skill{
+	    color: #808080;
+	    font-size: 1.5em;
+	}
+
+	.tool_skill{
+	    font-size : 1.2em;
+	    color: #808080
+	}
+
+	.etc_skill{
+	    font-size : 0.9em;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -112,7 +170,6 @@
 	    width: 3em;
 	    margin: 0;
 	    top: 45%;
-	    
 	}
 
 	#small_balloon{
@@ -122,68 +179,30 @@
 	   	right: -3.2em;
 	}
 
-	.skill_text{
-	    font-size: 1.5vw;
+	.main_skill{
+	    font-size : 1.3em;
+	}
+
+	.sub_skill{
+	    color: #808080;
+	    font-size: 1.2em;
+	}
+
+	.tool_skill{
+	    font-size : 1em;
+	    color: #808080
+	}
+
+	.etc_skill{
+	    font-size : 0.9em;
 	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-	.skill_text{
-	    font-size: 1.5vw;
-	}
-}
 
 @media (max-width: 991.98px){
 	#profile_div_img{
 		display: none;
-	}
-
-	#profile_ment_div{
-	    height: 53vw;
-	    width: 50%;
-	    margin: 0 auto;
-	    position: relative;
-	}
-
-	.profile_ment{
-	    position: absolute;
-	    line-height: 0;
-	}
-
-	#seoul{
-	    font-size: 1.1em;
-	    top: 4em;
-	}
-
-	#upgrade{
-	    font-size: 1.6em;
-	    top: 4em; 
-	    left: 1em;   
-	}
-
-	#ing{
-	    font-size: 0.9em;
-	    top: 7.3em;
-	    left: 9em;
-	}
-
-	#tree{
-	    font-size: 2em;
-	    top: 4.2em;
-	    left: 0.5em
-	}
-
-	#frontend{
-	    font-size: 2.5em;
-	    top: 4.3em;
-	    left: 1em;
-	}
-
-	#developer{
-	    font-size: 2.5em;
-	    top: 5.05em;
-	    left: 1.3em;
 	}
 }
 
