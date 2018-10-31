@@ -4,14 +4,14 @@
 	    width: 1.8em;
 	    margin: 0;
 	    top: 87%;
-	    right: 11em;
+	    right: 12em;
 	}
 
 	#small_balloon{
 	    width: 0.8rem;
 	    margin: 0;  
-	    top: 98%;
-	    right: 12.5em;
+	    top: 96%;
+	    right: 11em;
 	}
 	
 	#skill_div{
@@ -93,7 +93,7 @@
 	    width: 1.5rem;
 	    margin: 0;  
 	    top: 98%;
-	    right: 20.5em;
+	    right: 15.5em;
 	}
 
 	.main_skill{
@@ -121,12 +121,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-	#middle_balloon{
-	    width: 4.5em;
-	    margin: 0;
-	    top: 87%;
-	    right: 30em;
-	}
 
 	#profile_ment_div{
 	    width: 70%;
@@ -134,11 +128,18 @@
 	    position: relative;
 	}
 
+	#middle_balloon{
+	    width: 4.5em;
+	    margin: 0;
+	    top: 87%;
+	    right: 30em;
+	}
+
 	#small_balloon{
 	    width: 2rem;
 	    margin: 0;  
 	    top: 100%;
-	    right: 33em;
+	    right: 28em;
 	}
 
 	#skill_div{
@@ -201,8 +202,37 @@
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (max-width: 991.98px){
-	#profile_div_img{
+	.profile_div_img{
 		display: none;
+	}
+
+	#namecard_ment_div{
+		margin-top: 10%;
+		margin-bottom: 10%;
+		width: 20em;
+		height: 13em;
+		text-align: center;
+	}
+
+	#namecard_ment_div>h4,p{
+		display: inline;
+	}
+	
+	#namecard_ment_div>p:after{
+		content: '';
+		display: block;
+	}
+
+	.sns_icon{
+		margin-top: 1em;
+	}
+
+	#main_img_first{
+		display: none;
+	}
+
+	#main_img_second{
+	    display: block;
 	}
 }
 
