@@ -310,7 +310,7 @@
 #namecard_ment_div{
     position: absolute;
     width: 10em;
-    height: 22em;
+    height: 24.5em;
     top: 0;
     bottom: 0;
     left: 0;
@@ -328,6 +328,46 @@
 }
 
 .sns_icon:hover{
+    animation-name: words,wordsrepeat;
+    animation-iteration-count: 1,infinite;
+    animation-duration: 0.7s,3s;
+    animation-fill-mode: forwards,forwards;
+}
+
+
+/*
+
+ 04. skill_div
+
+*/
+
+#skill_div{
+    background-color: #41969c;
+}
+
+#postit_wrapper{
+    text-align: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.postit>span{
+    font-size: 30px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.postit{
+    background-color: #fffa60;
+    width: 15em;
+    line-height: 15em;
+    height: 15em;
+    display: inline-block;
+    margin: 1em 1em;
+    box-shadow: 10px 10px 20px black;
+    animation: swing ease-in-out 1s infinite alternate;
+}
+
+.postit:hover{
     animation-name: words,wordsrepeat;
     animation-iteration-count: 1,infinite;
     animation-duration: 0.7s,3s;

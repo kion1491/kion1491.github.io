@@ -1,19 +1,31 @@
-setInterval(function(){
-  changeImg("namecard_img", "image/ksh/profile_img_", profileImgArray);
-}, 3000);
+
+window.onload = function(){
+	profileSlideShow();
+}
+
+var index = 0;
 
 
-var profileImgArray = ['02.PNG', '08.PNG', '10.PNG'];
+function profileSlideShow(){
+	var i;
+	var x = document.getElementsByClassName("namecard_div_img");
 
-function changeImg(imgId, imgRoute, imgArray){
-	var imgIndex = 0;
-	var namecardDivImg = document.getElementById(imgId);
-	console.log(namecardDivImg);
-	namecardDivImg.setAttribute("src", imgRoute+imgArray[imgIndex]);
-	imgIndex++;
-	if (imgIndex>=imgArray.length) {
-		imgIndex=0;
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display="none";
 	}
-};
+	index++;
+	if(index>x.length){
+		index=1;
+	}
+	x[index-1].style.display="block";
+	setTimeout(profileSlideShow, 4000);
+}
 
+var grootRoute = "image/ipad_picture/groot_";
+var grootArray = [grootRoute+"mini.PNG", grootRoute+"baby.PNG", grootRoute+"boy.PNG", grootRoute+"man.PNG"];
 
+function slideGroot(){
+	for (var i = 0; i < grootArray.length; i++) {
+		
+	}
+}

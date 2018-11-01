@@ -212,6 +212,7 @@
 		width: 20em;
 		height: 13em;
 		text-align: center;
+		position: relative;
 	}
 
 	#namecard_ment_div>h4,p{
