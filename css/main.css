@@ -34,6 +34,17 @@ header>nav>span{
     z-index: 100;
 }
 
+#nav_toggle_btn{
+    background-image: url(../image/sandwich.PNG);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    display: none;
+    float: right;
+    right: 0;
+    margin-right: 10px;
+}
+
 /* 
 
  01. intro_div
@@ -226,7 +237,7 @@ header>nav>span{
     background-image: url(../image/background/paper_01.jpg);
     background-size: cover;
     font-size: 3em;
-    padding-top: 2.5em;
+    padding-top: 1.2em;
     padding-bottom: 2.5em;
 }
 

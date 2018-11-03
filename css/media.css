@@ -1,5 +1,6 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
 	#middle_balloon{
 	    width: 1.8em;
 	    margin: 0;
@@ -82,6 +83,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+
 	#middle_balloon{
 	    width: 3em;
 	    margin: 0;
@@ -237,3 +239,26 @@
 	}
 }
 
+@media (max-width: 767.98px){
+	#nav{
+		display: none;
+		width: 150px;
+	    position: fixed;
+	    top: 50px;
+	    padding: 20px;
+	    background: #161616;
+	    margin-top: 50px;
+	    height: 100%;
+	    z-index: 200;
+	    right: 0;
+	}
+
+	#nav span{
+		display: block;
+	}
+	
+	#nav_toggle_btn{
+		display: block;
+		position: absolute;
+	}
+}
