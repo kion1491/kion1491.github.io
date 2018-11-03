@@ -6,6 +6,34 @@
     padding: 0;
 }
 
+header{
+    height: 108px;
+    background: #161616;
+    top: -50px;
+    padding: 10px 100px;
+}
+
+header>nav{
+    float: right;
+    background: #161616;
+}
+
+header>nav>span{
+    margin-right: 10px;
+    color: white;
+    display: block;
+    float: left;
+    line-height: 90px;
+    cursor: pointer;
+}
+
+.header_fixed{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
 /* 
 
  01. intro_div
@@ -14,6 +42,7 @@
 
 #intro_div{
     background-color: #41969c;
+    padding-top: 1em;
 }
 
 .main_img{
@@ -189,38 +218,25 @@
 
 /*
 
- 02. profile_div
+ 02. Introduce
 
 */
 
-#profile_div{
+#Introduce{
     background-image: url(../image/background/paper_01.jpg);
     background-size: cover;
     font-size: 3em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
 }
 
-.profile_div_img{
-    bottom: 0.7em;
-    position: absolute;
-    left:50%;
-    transform:translateX(-50%);
+.groot_div{
+    padding-top: 1.6em;
 }
-
-#groot_mini{
-    width: 40%;
-}
-
-#groot_baby{
-    width: 60%;
-}
-
-#groot_boy{
-    width: 80%;
-}
-
 
 #profile_ment_div{
     height: 40rem;
+    margin-left: 20px;
 }
 
 #profile{
@@ -277,11 +293,11 @@
 
 /*
 
- 03. namecard_div
+ 03. Profile
 
 */
 
-#namecard_div{
+#Profile{
     padding: 5em 0em;
 }
 
@@ -300,7 +316,7 @@
     content: '';
     width: 12px;
     height: 12px;
-    background: #1e4e7c;
+    background: #41969c;
     display: inline-block;
     margin-right: 10px;
     text-indent: -12px;
@@ -319,9 +335,9 @@
 }
 
 .sns_icon{
-    width: 2em;
+    width: 2.5em;
     animation-name: textshine, textbizside;
-    animation-duration: 2s, 1s;
+    animation-duration: 1.3s, 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
@@ -337,11 +353,11 @@
 
 /*
 
- 04. skill_div
+ 04. Favorite
 
 */
 
-#skill_div{
+#Favorite{
     background-color: #41969c;
 }
 
@@ -349,6 +365,10 @@
     text-align: center;
     padding-top: 10em;
     padding-bottom: 10em;
+}
+
+#postit_wrapper h1{
+    margin-bottom: 2em;
 }
 
 .postit>span{
@@ -372,4 +392,87 @@
     animation-iteration-count: 1,infinite;
     animation-duration: 0.7s,3s;
     animation-fill-mode: forwards,forwards;
+}
+
+
+/*
+    
+  05. Experience
+
+*/
+
+#Experience{
+/*     background-image: url(../image/background/paper_02.jpg);
+background-size: cover; */
+    padding: 5em 0em 3em;
+}
+
+#Experience h2:before{
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #41969c;
+    display: inline-block;
+    margin-right: 10px;
+    text-indent: -12px;
+    border-radius: 12px;
+}
+
+#Experience h2{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#Experience p{
+    font-size: 1.2em;
+    display: block;
+    font-family: 'Poor Story', cursive;
+}
+
+/*
+
+  end_div
+
+*/
+
+#end_div{
+    text-align: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+#top_arrow_div{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+#top_arrow_div>span{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-image: url(../image/top_arrow.PNG);
+    background-size: cover;
+    border-radius: 50%;
+    animation-name: textshine, textbizside;
+    animation-duration: 2s, 0.1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+
+#top_arrow_div>span:hover{
+    animation-name: bling;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#copyright{
+    font-family: 'Nanum Pen Script', cursive;
+    display: block;
+    font-size: 20px;
+    margin-top: 5em;
 }

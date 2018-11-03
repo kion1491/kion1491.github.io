@@ -104,3 +104,12 @@
     0% { transform: rotate(0.25deg); }
     100% { transform: rotate(-0.25deg); }
 }
+
+@keyframes bling {
+	from{
+		background-image: url(../image/top_arrow.PNG);
+	}
+	to{
+		background-image: none;
+	}
+}

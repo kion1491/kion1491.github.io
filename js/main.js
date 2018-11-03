@@ -21,11 +21,4 @@ function profileSlideShow(){
 	setTimeout(profileSlideShow, 4000);
 }
 
-var grootRoute = "image/ipad_picture/groot_";
-var grootArray = [grootRoute+"mini.PNG", grootRoute+"baby.PNG", grootRoute+"boy.PNG", grootRoute+"man.PNG"];
 
-function slideGroot(){
-	for (var i = 0; i < grootArray.length; i++) {
-		
-	}
-}

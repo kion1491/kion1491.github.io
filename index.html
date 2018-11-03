@@ -5,15 +5,26 @@
   <title>김상훈, kion</title>
   <meta name="description" content="Kion, 커다란 나무가 될 사람. 머물러 쉬다가 가고싶은 사람.">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="css/animation.css">
   <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
 </head>
 <body>
+  <header id="header">
+    <nav>
+      <span class="nav_ment">Introduce</span>
+      <span class="nav_ment">Profile</span>
+      <span class="nav_ment">Favorite</span>
+      <span class="nav_ment">Experience</span>
+    </nav>
+  </header>
   <div class="container-fluid">
     <div class="row" id="intro_div">
       <div class="container">
@@ -55,15 +66,12 @@
       </div> 
     </div>
     
-    <div class="row" id="profile_div">
+    <div class="row" id="Introduce">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <div id="groot_div text-center">
-              <img class="profile_img profile_div_img" id="groot_mini" src="image/ipad_picture/groot_mini.PNG">
-              <img class="profile_img profile_div_img" id="groot_baby" src="image/ipad_picture/groot_baby.PNG">
-              <img class="profile_img profile_div_img" id="groot_boy" src="image/ipad_picture/groot_boy.PNG">
-              <img class="profile_img profile_div_img" id="groot_man" src="image/ipad_picture/groot_man.PNG">
+            <div class="groot_div text-center">
+              <img class="profile_img profile_div_img" src="image/ksh/groot.PNG">
             </div>
           </div>
           <div class="col-lg-6">
@@ -79,7 +87,7 @@
       </div>
     </div>
 
-    <div class="row" id="namecard_div">
+    <div class="row" id="Profile">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1">
@@ -98,15 +106,15 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img class="profile_img namecard_div_img" id="namecard_img" src="image/ksh/profile_img_02.PNG">
             <img class="profile_img namecard_div_img" id="namecard_img" src="image/ksh/profile_img_08.PNG">
-            <img class="profile_img namecard_div_img" id="namecard_img" src="image/ksh/profile_img_10.PNG">
+            <img class="profile_img namecard_div_img" id="namecard_img" src="image/ksh/profile_img_15.PNG">
+            <img class="profile_img namecard_div_img" id="namecard_img" src="image/ksh/profile_img_17.PNG">
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row" id="skill_div">
+    <div class="row" id="Favorite">
       <div class="container">
         <div class="row">
           <div class="col-lg-12" id="postit_wrapper">
@@ -139,9 +147,58 @@
         </div>
       </div>
     </div>
+  
+    <div class="row" id="Experience">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>as a Developer,</h2>
+            <p>HTML5를 사용 했습니다.</p>
+            <p>CSS3를 사용 했습니다.</p>
+            <p>NodeJs 환경에서 작업을 했습니다.</p>
+            <p>Ajax 코드로 데이터 바인딩을 했습니다.</p>
+            <p>Bitbucket을 통한 프로젝트 관리환경을 경험했습니다.</p>
+            <p>UI/UX에 대해 고민하고, 기획했습니다.</p>
+            <p>SourceTree를 통해 git을 이해하고, 사용했습니다.</p>
+            <p>Jira를 사용하며 프로젝트의 진행을 체크했습니다.</p>
+            <p>Aws와 Ngingx를 사용해 간단한 서버세팅을 했습니다.</p>
+            <p>Wordpress, Wix로 웹페이지작업을 했습니다.</p>
+          </div>
+          <div class="col-lg-6">
+            <h2>as a Business Supporter,</h2>
+            <p>국가 지원사업 관련 업무처리를 진행했습니다.</p>
+            <p>클라이언트와 계약, 요구사항 정리를 위한 커뮤니케이션을 했습니다.</p>
+            <p>Confluence로 업무사항을 정리했습니다.</p>
+            <p>Google Team Drive로 업무 문서관리를 했습니다.</p>
+            <p>Trello로 업무에 대한 체크를 했습니다.</p>
+            <p>Stride로 업무 상황에 대한 공유를 했습니다.</p>
+            <p>홍보 및 마케팅을 진행했습니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="end_div">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <hr>
+            <div id="top_arrow_div">
+              <span> </span>
+            </div>
+            <h1>Thank you!</h1><br>
+            <h3>See you later!</h3>
+            <span id="copyright">Copyright 2018. Kion. All rights reserved.</span>
+          </div>
+        </div>
+      </div>
+    </div>
     
   </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="js/jquery.js" type="text/javascript"></script>
   <script src="js/main.js" type="text/javascript"></script>
 </body>
