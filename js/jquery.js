@@ -31,7 +31,8 @@ $(document).ready( function() {
 	});
 });
 
-$(document).on("click",".nav_ment", function(){
+
+/*$(document).on("click",".nav_ment", function(){
 	var spanName = $(this).text();
 	console.log(spanName);
 	var scrollPosition = $("#"+spanName).offset().top-98;
@@ -39,7 +40,7 @@ $(document).on("click",".nav_ment", function(){
 	$('#html').animate({
 	    scrollTop: scrollPosition
 	}, 500);
-});
+});*/
 
 $(document).on("click", "#nav_toggle_btn", function(){
 	$("#nav").toggle();
