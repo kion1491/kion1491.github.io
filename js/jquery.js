@@ -35,9 +35,9 @@ $(document).on("click",".nav_ment", function(){
 	var spanName = $(this).text();
 	console.log(spanName);
 	var scrollPosition = $("#"+spanName).offset().top-98;
-	console.log(scrollPosition);
-	$("html").animate({
-	      scrollTop: scrollPosition
+	
+	$('#html').animate({
+	    scrollTop: scrollPosition
 	}, 500);
 });
 
