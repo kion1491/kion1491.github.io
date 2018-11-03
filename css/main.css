@@ -278,13 +278,11 @@ header>nav>span>a:hover{
 #tree{
     font-size: 1.7em;
     top: 4.2em;
-    left: 0.5em;
 }
 
 #frontend{
     font-size: 1.9em;
     top: 4.7em;
-    left: 0.5em;
     text-shadow: 0.5vw 0.5vw 0.5vw gray;
     animation-name: textshine, textbizside;
     animation-duration: 2s, 0.1s;
@@ -296,7 +294,7 @@ header>nav>span>a:hover{
 #developer{
     font-size: 1.9em;
     top: 5.45em;
-    left: 0.61em;
+    
     text-shadow: 0.5vw 0.5vw 0.5vw gray;
     animation-name: textshine, textbizside;
     animation-duration: 2s, 0.1s;
@@ -462,7 +460,7 @@ background-size: cover; */
     text-align: center;
 }
 
-#top_arrow_div>span{
+#top_arrow_div>a>span{
     padding: 10px;
     width: 100px;
     height: 100px;
@@ -478,7 +476,7 @@ background-size: cover; */
     cursor: pointer;
 }
 
-#top_arrow_div>span:hover{
+#top_arrow_div>a>span:hover{
     animation-name: bling;
     animation-iteration-count: infinite;
     animation-duration: 0.5s;

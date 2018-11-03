@@ -53,31 +53,31 @@
 	#seoul{
 	    font-size: 0.6em;
 	    top: 20%;
-	    left: 15%;
+	    left: 20%;
 	}
 
 	#upgrade{
 	    font-size: 1em;
 	    top: 32%; 
-	    left: 5%;
+	    left: 10%;
 	}
 
 	#tree{
 	    font-size: 1.3em;
 	    top: 45%;
-	    left: 10%;
+	    left: 15%;
 	}
 
 	#frontend{
 	    font-size: 1.4em;
 	    top: 58%;
-	    left: 0;
+	    left: 2;
 	}
 
 	#developer{
 	    font-size: 1.4em;
 	    top: 68%;
-	    left: 0;
+	    left: 2;
 	}
 }
 
@@ -239,12 +239,22 @@
 	}
 }
 
-@media (max-width: 767.98px){
+@media (max-width: 768px){
+	
+	header{
+		height: 54px;
+	}
+	
+	#nav_toggle_btn{
+		width: 40px;
+		height: 40px;
+	}
+
 	#nav{
 		display: none;
 		width: 150px;
 	    position: fixed;
-	    top: 50px;
+	    top: 2px;
 	    padding: 20px;
 	    background: #161616;
 	    margin-top: 50px;

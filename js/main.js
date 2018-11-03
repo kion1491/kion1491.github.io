@@ -20,8 +20,3 @@ function profileSlideShow(){
 	x[index-1].style.display="block";
 	setTimeout(profileSlideShow, 4000);
 }
-
-function goTop(){
-	document.body.scrollTop = 0; // For Safari
-	document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
