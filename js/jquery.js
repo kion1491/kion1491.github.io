@@ -4,9 +4,9 @@ $(document).ready(function(){
 	$('#big_balloon').animate({opacity:'1'}, 3500);
 });
 
-$(document).on("click", "#top_arrow_div>span", function(){
-	$('html').animate({scrollTop:0}, 500);
-});
+/*$(document).on("click", "#top_arrow_div>span", function(){
+	$('html').go;
+});*/
 
 /*$(document).ready(function(){
     $("#moveBtn").on("click",function(event){
@@ -30,17 +30,6 @@ $(document).ready( function() {
 	  }
 	});
 });
-
-
-/*$(document).on("click",".nav_ment", function(){
-	var spanName = $(this).text();
-	console.log(spanName);
-	var scrollPosition = $("#"+spanName).offset().top-98;
-	
-	$('#html').animate({
-	    scrollTop: scrollPosition
-	}, 500);
-});*/
 
 $(document).on("click", "#nav_toggle_btn", function(){
 	$("#nav").toggle();

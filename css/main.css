@@ -18,13 +18,17 @@ header>nav{
     background: #161616;
 }
 
-header>nav>span{
+header>nav>span>a{
     margin-right: 10px;
     color: white;
     display: block;
     float: left;
     line-height: 90px;
     cursor: pointer;
+}
+
+header>nav>span>a:hover{
+    text-decoration: none;
 }
 
 .header_fixed{
@@ -309,7 +313,7 @@ header>nav>span{
 */
 
 #Profile{
-    padding: 5em 0em;
+    padding: 7em 0em;
 }
 
 .namecard_div_img {
