@@ -436,9 +436,14 @@ background-size: cover; */
     margin-bottom: 2em;
 }
 
-#Experience p{
+#Experience ul{
+    padding-left: 0;
+}
+
+#Experience ul li{
     font-size: 1.2em;
     display: block;
+    margin-bottom: 16px;
     font-family: 'Poor Story', cursive;
 }
 
