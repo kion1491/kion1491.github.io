@@ -4,21 +4,6 @@ $(document).ready(function(){
 	$('#big_balloon').animate({opacity:'1'}, 3500);
 });
 
-/*$(document).on("click", "#top_arrow_div>span", function(){
-	$('html').go;
-});*/
-
-/*$(document).ready(function(){
-    $("#moveBtn").on("click",function(event){
-		var offset = $("#preId").offset();
-		$("html body").animate({scrollTop:offset.top},2000);
-    });
-});
-
-$(document).on("click", ".nav_ment", function(){
-
-});*/
-
 $(document).ready( function() {
 	var jbOffset = $( '#header' ).offset();
 	$( window ).scroll( function() {

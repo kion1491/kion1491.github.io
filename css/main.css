@@ -455,12 +455,6 @@ background-size: cover; */
 }
 
 #top_arrow_div{
-    width: 100%;
-    height: 100px;
-    text-align: center;
-}
-
-#top_arrow_div>a>span{
     padding: 10px;
     width: 100px;
     height: 100px;

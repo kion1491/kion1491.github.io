@@ -2,6 +2,7 @@
 window.onload = function(){
 	profileSlideShow();
 	navFunc();
+	goTop();
 }
 
 var index = 0;
@@ -33,5 +34,11 @@ function navFunc(){
 			window.scrollTo({top:location, behavior:'smooth'});
 		})
 	}
-	
+}
+
+function goTop(){
+	var topBtn = document.getElementById('top_arrow_div');
+	topBtn.addEventListener('click', function(){
+		window.scrollTo({top:0, behavior:'smooth'});
+	})
 }
