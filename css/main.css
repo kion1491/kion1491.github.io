@@ -18,7 +18,7 @@ header>nav{
     background: #161616;
 }
 
-header>nav>span>a{
+header>nav>ul>li{
     margin-right: 10px;
     color: white;
     display: block;
@@ -27,9 +27,9 @@ header>nav>span>a{
     cursor: pointer;
 }
 
-header>nav>span>a:hover{
+/* header>nav>ul>li:hover{
     text-decoration: none;
-}
+} */
 
 .header_fixed{
     position: fixed;

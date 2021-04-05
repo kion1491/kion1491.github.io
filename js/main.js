@@ -1,6 +1,7 @@
 
 window.onload = function(){
 	profileSlideShow();
+	navFunc();
 }
 
 var index = 0;
@@ -19,4 +20,18 @@ function profileSlideShow(){
 	}
 	x[index-1].style.display="block";
 	setTimeout(profileSlideShow, 4000);
+}
+
+function navFunc(){
+	var nav = document.getElementById('nav'),
+		navItem = nav.getElementsByClassName('nav_ment');
+	
+	for(var i = 0;i < navItem.length; i++){
+		navItem[i].addEventListener('click', function(){
+			var navItemText = this.innerText;
+			var location = document.querySelector(`#${navItemText}`).offsetTop;
+			window.scrollTo({top:location, behavior:'smooth'});
+		})
+	}
+	
 }
